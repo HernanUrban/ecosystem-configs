@@ -8,7 +8,6 @@ info:
     app:
         name: auth-server
         description: Oauth2 w/JWT - Auth Server
-        version: '@project.version@'
 
 spring:
     datasource:

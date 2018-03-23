@@ -12,4 +12,3 @@ info:
     app:
         name: urban-service
         description: Resource server - API
-        version: '@project.version@'
