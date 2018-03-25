@@ -29,3 +29,9 @@ access_token:
 refresh_token:
     validity_period: 10000
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
